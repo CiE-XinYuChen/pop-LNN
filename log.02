@@ -1,0 +1,3 @@
+TensorFlow installation not found - running with reduced feature set.
+TensorBoard 2.18.0 at http://79e4996a11e8:32216/ (Press CTRL+C to quit)
+TensorBoard caught SIGTERM; exiting...

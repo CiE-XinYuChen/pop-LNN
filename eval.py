@@ -147,7 +147,7 @@ def evaluate(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate LTCNetwork population models with progressive forecasting")
-    parser.add_argument("--train_csv", default="train_merged.csv", help="Path to train.csv containing 2009‑2020 data")
+    parser.add_argument("--train_csv", default="train.csv", help="Path to train.csv containing 2009‑2020 data")
     parser.add_argument("--model_dir", default="models", help="Directory with *_model.pth files")
     parser.add_argument("--plot_dir", default="plots", help="Where PNG plots are saved")
     parser.add_argument("--result_csv", default="mape_results.csv", help="CSV output for MAPE values")
