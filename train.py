@@ -95,4 +95,4 @@ model_dir = 'models'
 os.makedirs(model_dir, exist_ok=True)
 
 # Train models
-train_and_save_models(data_dir, model_dir, num_epochs=3000, batch_size=256, learning_rate=1e-2)
+train_and_save_models(data_dir, model_dir, num_epochs=2500, batch_size=256, learning_rate=1e-2)
